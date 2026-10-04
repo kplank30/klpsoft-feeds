@@ -10,19 +10,19 @@ For advanced advertising channels, real-time API syncing, and marketplace format
 
 | Feature | Free Version | Premium Version |
 | :--- | :---: | :---: |
-| **Google Shopping Feeds** (Unlimited XML incl. variants)
-| **Bing Shopping Feeds** (XML incl. variants
-| **Idealo Feeds** (CSV format) | (No variants) | (Incl. variants)
-| **Realtime Google Merchant API** (Instant product sync)
-| **Amazon Marketplace Flat-File Export** (Tab-delimited .txt)
-| **Multi-Channel Feeds** (Geizhals, Pinterest, Meta, TikTok)
-| **Google Category Mapping** (WooCommerce to Google) 
-| **UTM Google Analytics Tracking Parameters**
-| **Advanced Filtering & Math Formulas** (e.g., custom pricing)
+| **Google Shopping Feeds** (Unlimited XML incl. variants) | ✅ | ✅ |
+| **Bing Shopping Feeds** (XML incl. variants) | ✅ | ✅ |
+| **Idealo Feeds** (CSV format) | ✅ (No variants) | ✅ (Incl. variants) |
+| **Realtime Google Merchant API** (Instant product sync) | ❌ | ✅ |
+| **Amazon Marketplace Flat-File Export** (Tab-delimited .txt) | ❌ | ✅ |
+| **Multi-Channel Feeds** (Geizhals, Pinterest, Meta, TikTok) | ❌ | ✅ |
+| **Google Category Mapping** (WooCommerce to Google) | ❌ | ✅ |
+| **UTM Google Analytics Tracking Parameters** | ❌ | ✅ |
+| **Advanced Filtering & Math Formulas** (e.g., custom pricing) | ❌ | ✅ |
 
 ---
 
-## Installation & Setup
+## 🚀 Installation & Setup
 
 ### Via the WordPress Dashboard (Recommended)
 1. Navigate to your WordPress Admin area and go to **Plugins > Add New**.
@@ -47,7 +47,7 @@ For advanced advertising channels, real-time API syncing, and marketplace format
 ## 🔗 Useful Links & Support
 
 - **Get the Premium Version:** [klpsoft Feeds Premium Landing Page](https://www.klp-soft.com/en/klpsoft-feeds-premium/)
-- **WordPress.org Plugin Page:** [klpsoft Feeds on WordPress.org](https://wordpress.org)
+- **WordPress.org Plugin Page:** [klpsoft Feeds on WordPress.org](https://wordpress.org/plugins/klpsoft-feeds/)
 - **Bug Reports & Issues:** If you encounter any issues, please open a ticket here on our [GitHub Issues](https://github.com) page.
 
 ---
