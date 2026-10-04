@@ -1,0 +1,617 @@
+# Copyright (C) 2026 Klaus Plank
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: klpsoft Feeds for WooCommerce 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/klpsoft-feeds\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-25T09:38:59+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: klpsoft-feeds\n"
+
+#. Plugin Name of the plugin
+#: klpsoft-feeds.php
+msgid "klpsoft Feeds for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: klpsoft-feeds.php
+msgid "creates XML feeds for Google Shopping, Bing, idealo. with field mapping, filters, tabs, cron, and many options."
+msgstr ""
+
+#. Author of the plugin
+#: klpsoft-feeds.php
+msgid "Klaus Plank"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:24
+msgid "klpsoft Feeds Premium"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:26
+msgid "klpsoft Feeds"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:102
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:111
+msgid "Your License"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:149
+msgid "Please wait..."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:151
+msgid "Saving settings..."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:162
+msgid "Upgrade to klpsoft Feeds for WooCommerce - Premium"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:164
+msgid "Unlock the full power of your store. Premium features include Google realtime Merchant API, Analytics UTM tracking, more channels (Meta (Facebook/Insta) Catalogue, TikTok Feeds), and Google Product Category Mapping."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:168
+msgid "Don't have a license key yet?"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:172
+msgid "Buy Premium Addon Now"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:229
+msgid "New Shopping Feed"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:230
+msgid "Enter a name for your new Shopping Feed:"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:231
+msgid "Create Feed"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:232
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:233
+msgid "Add New Feed Profile"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:234
+msgid "Delete Feed"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:235
+msgid "Are you sure you want to delete this feed profile? This action cannot be undone."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:236
+msgid "Yes, delete feed"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:237
+msgid "Please select a valid feed profile to delete."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:239
+msgid "Saving..."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:240
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:22
+#: includes/admin/class-page-channel-google.php:22
+#: includes/admin/class-page-channel-idealo.php:22
+#: includes/admin/class-page-settings.php:13
+#: includes/admin/class-section-filters.php:16
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:70
+#: includes/admin/class-page-channel-google.php:71
+#: includes/admin/class-page-channel-idealo.php:63
+msgid "Select Feed Profile:"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:86
+#: includes/admin/class-page-channel-google.php:86
+#: includes/admin/class-page-channel-idealo.php:78
+msgid "Feed Generation Options"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:89
+#: includes/admin/class-page-channel-google.php:124
+#: includes/admin/class-page-channel-idealo.php:81
+msgid "Feed Status"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:91
+#: includes/admin/class-page-channel-google.php:126
+#: includes/admin/class-page-channel-idealo.php:83
+msgid "Active"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:92
+#: includes/admin/class-page-channel-google.php:127
+#: includes/admin/class-page-channel-idealo.php:84
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:96
+#: includes/admin/class-page-channel-google.php:131
+#: includes/admin/class-page-channel-idealo.php:88
+msgid "Generation Method"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:100
+#: includes/admin/class-page-channel-google.php:135
+msgid "Write static XML file"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:100
+#: includes/admin/class-page-channel-google.php:135
+#: includes/admin/class-page-channel-idealo.php:92
+msgid "Generates a physical file on your server."
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:104
+#: includes/admin/class-page-channel-google.php:139
+msgid "Your static XML file path URL:"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:108
+#: includes/admin/class-page-channel-google.php:142
+#: includes/admin/class-page-channel-idealo.php:100
+msgid "Manual Refresh:"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:110
+#: includes/admin/class-page-channel-google.php:144
+msgid "Regenerate XML file now"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:116
+#: includes/admin/class-page-channel-google.php:150
+msgid "Live-Streaming"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:116
+#: includes/admin/class-page-channel-google.php:150
+msgid "Feed is generated live on request."
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:122
+#: includes/admin/class-page-channel-google.php:156
+#: includes/admin/class-page-channel-idealo.php:110
+msgid "Automatic Update Interval"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:125
+#: includes/admin/class-page-channel-google.php:159
+#: includes/admin/class-page-channel-idealo.php:113
+msgid "Every 1 hours"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:126
+#: includes/admin/class-page-channel-google.php:160
+#: includes/admin/class-page-channel-idealo.php:114
+msgid "Every 2 hours"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:127
+#: includes/admin/class-page-channel-google.php:161
+#: includes/admin/class-page-channel-idealo.php:115
+msgid "Every 4 hours"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:128
+#: includes/admin/class-page-channel-google.php:162
+#: includes/admin/class-page-channel-idealo.php:116
+msgid "Every 8 hours"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:129
+#: includes/admin/class-page-channel-google.php:163
+#: includes/admin/class-page-channel-idealo.php:117
+msgid "Every 12 hours"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:130
+#: includes/admin/class-page-channel-google.php:164
+#: includes/admin/class-page-channel-idealo.php:118
+msgid "Every 24 Hours (daily)"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:135
+#: includes/admin/class-page-channel-google.php:176
+msgid "Export shipping data"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:139
+#: includes/admin/class-page-channel-google.php:180
+msgid "Include shipping tags in this feed"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:144
+#: includes/admin/class-page-channel-google.php:185
+#: includes/admin/class-page-channel-idealo.php:123
+msgid "Target Shipping Country"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:147
+#: includes/admin/class-page-channel-google.php:188
+#: includes/admin/class-page-channel-idealo.php:126
+msgid "2-letter country code (e.g., DE, AT, CH)."
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:151
+#: includes/admin/class-page-channel-google.php:192
+#: includes/admin/class-page-channel-idealo.php:137
+msgid "Default Shipping Price"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:155
+#: includes/admin/class-page-channel-google.php:196
+#: includes/admin/class-page-channel-idealo.php:140
+msgid "Fallback price for physical items. (Virtual/download items always export as 0.00)."
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:160
+#: includes/admin/class-page-channel-google.php:201
+msgid "Product variants export"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:164
+#: includes/admin/class-page-channel-google.php:205
+msgid "Include variations in this feed"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:169
+#: includes/admin/class-page-channel-google.php:210
+msgid "Include only default variation"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:187
+#: includes/admin/class-page-channel-google.php:229
+#: includes/admin/class-page-channel-idealo.php:145
+msgid "Attribute Field Mapping"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:187
+#: includes/admin/class-page-channel-google.php:229
+msgid "(Click to expand/collapse)"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:193
+msgid "Bing Feed Attribute"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:194
+#: includes/admin/class-page-channel-google.php:236
+#: includes/admin/class-page-channel-idealo.php:150
+msgid "Data Source"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:195
+#: includes/admin/class-page-channel-google.php:237
+#: includes/admin/class-page-channel-idealo.php:151
+msgid "Custom Field Meta Key"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:226
+#: includes/admin/class-page-channel-google.php:268
+#: includes/admin/class-page-channel-idealo.php:181
+msgid "Not exported / (default)"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:228
+#: includes/admin/class-page-channel-google.php:270
+#: includes/admin/class-page-channel-idealo.php:183
+msgid "Standard Fields"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:229
+#: includes/admin/class-page-channel-google.php:271
+#: includes/admin/class-page-channel-idealo.php:184
+msgid "WP Post-ID"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:230
+#: includes/admin/class-page-channel-google.php:272
+#: includes/admin/class-page-channel-idealo.php:185
+msgid "WP Title"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:231
+#: includes/admin/class-page-channel-google.php:273
+#: includes/admin/class-page-channel-idealo.php:186
+msgid "WP Post content"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:232
+#: includes/admin/class-page-channel-google.php:274
+#: includes/admin/class-page-channel-idealo.php:187
+msgid "WP Product Permalink"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:233
+#: includes/admin/class-page-channel-google.php:275
+msgid "WP regular price"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:234
+#: includes/admin/class-page-channel-google.php:276
+#: includes/admin/class-page-channel-idealo.php:188
+msgid "WP Sale price"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:235
+#: includes/admin/class-page-channel-google.php:277
+#: includes/admin/class-page-channel-idealo.php:189
+msgid "WP Image Link"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:236
+#: includes/admin/class-page-channel-google.php:278
+#: includes/admin/class-page-channel-idealo.php:190
+msgid "WP GTIN / EAN"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:237
+#: includes/admin/class-page-channel-google.php:279
+#: includes/admin/class-page-channel-idealo.php:191
+msgid "WP SKU"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:244
+#: includes/admin/class-page-channel-google.php:286
+#: includes/admin/class-page-channel-idealo.php:198
+#: includes/admin/class-section-filters.php:136
+msgid "Global Attributes"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:280
+#: includes/admin/class-page-channel-google.php:322
+#: includes/admin/class-page-channel-idealo.php:235
+#: includes/admin/class-section-filters.php:172
+msgid "Custom Product Attributes"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:291
+#: includes/admin/class-page-channel-google.php:333
+#: includes/admin/class-page-channel-idealo.php:247
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:292
+#: includes/admin/class-page-channel-google.php:334
+#: includes/admin/class-page-channel-idealo.php:248
+msgid "Custom Field (Meta Key)"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:295
+#: includes/admin/class-page-channel-google.php:337
+msgid "Text"
+msgstr ""
+
+#: includes/admin/class-page-channel-bing.php:318
+#: includes/admin/class-page-channel-google.php:360
+#: includes/admin/class-page-channel-idealo.php:267
+msgid "Save Feed Settings"
+msgstr ""
+
+#: includes/admin/class-page-channel-google.php:90
+msgid "Send product changes instantly to Google"
+msgstr ""
+
+#: includes/admin/class-page-channel-google.php:103
+#: includes/admin/class-page-channel-google.php:117
+msgid "Use Google Merchant real-time API"
+msgstr ""
+
+#: includes/admin/class-page-channel-google.php:169
+msgid "Feed label"
+msgstr ""
+
+#: includes/admin/class-page-channel-google.php:172
+msgid "feed label (e.g., DE, AT, CH)."
+msgstr ""
+
+#: includes/admin/class-page-channel-google.php:235
+msgid "Google Feed Attribute"
+msgstr ""
+
+#: includes/admin/class-page-channel-idealo.php:92
+msgid "Write static CSV file"
+msgstr ""
+
+#: includes/admin/class-page-channel-idealo.php:96
+msgid "Your static CSV file path URL:"
+msgstr ""
+
+#: includes/admin/class-page-channel-idealo.php:102
+msgid "Regenerate CSV file now"
+msgstr ""
+
+#: includes/admin/class-page-channel-idealo.php:130
+msgid "Default Delivery Time"
+msgstr ""
+
+#: includes/admin/class-page-channel-idealo.php:133
+msgid "Default shipping / delivery time"
+msgstr ""
+
+#: includes/admin/class-page-channel-idealo.php:149
+msgid "Idealo Feed Attribute"
+msgstr ""
+
+#: includes/admin/class-page-settings.php:23
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/class-page-settings.php:32
+msgid "Logging on/off"
+msgstr ""
+
+#: includes/admin/class-page-settings.php:36
+msgid "logs feed creation events in WooCommerce -> Status -> Logs."
+msgstr ""
+
+#: includes/admin/class-page-settings.php:50
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin/class-page-settings.php:61
+msgid "Google Product category mapping"
+msgstr ""
+
+#: includes/admin/class-page-settings.php:63
+msgid "Google category mapping - Feature available only in Premium version"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:21
+msgid "Custom Filters"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:22
+msgid "Define the filter rules for this feed here."
+msgstr ""
+
+#: includes/admin/class-section-filters.php:34
+msgid "Product Field / Property"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:35
+msgid "Condition"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:36
+msgid "Value"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:37
+msgid "Action"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:52
+#: includes/admin/class-section-filters.php:99
+msgid "is equal to (=)"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:53
+#: includes/admin/class-section-filters.php:100
+msgid "is not equal to (!=)"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:54
+#: includes/admin/class-section-filters.php:101
+msgid "greater than (&gt;)"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:55
+#: includes/admin/class-section-filters.php:102
+msgid "less than (&lt;)"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:56
+#: includes/admin/class-section-filters.php:103
+msgid "contains"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:57
+#: includes/admin/class-section-filters.php:104
+msgid "is not empty"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:58
+#: includes/admin/class-section-filters.php:105
+msgid "is empty"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:66
+#: includes/admin/class-section-filters.php:113
+msgid "Exclude"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:67
+#: includes/admin/class-section-filters.php:114
+msgid "Include Only"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:74
+msgid "No filters defined yet. Click on \"Add Field\"."
+msgstr ""
+
+#: includes/admin/class-section-filters.php:81
+msgid "Add Field"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:82
+msgid "Delete Filter"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:83
+msgid "Save Filters"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:124
+msgid "-- Select Field --"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:126
+msgid "Standard fields"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:127
+msgid "Product Name"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:128
+msgid "Sale Price"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:129
+msgid "Stock Status"
+msgstr ""
+
+#: includes/admin/class-section-filters.php:130
+msgid "Category"
+msgstr ""
+
+#: includes/ajax/class-ajax-handler.php:164
+msgid "Feed status inactive"
+msgstr ""
+
+#: includes/ajax/class-ajax-handler.php:170
+msgid "XML successfully generated!"
+msgstr ""
+
+#: includes/ajax/class-ajax-handler.php:172
+msgid "Error writing file."
+msgstr ""
+
+#: includes/class-feed-generator.php:139
+msgid "Error: Feed profile not found."
+msgstr ""
+
+#: includes/class-feed-generator.php:149
+msgid "Live stream option is disabled. Change settings or use xml file at /uploads/."
+msgstr ""
+
+#: klpsoft-feeds.php:49
+msgid "This plugin requires WooCommerce."
+msgstr ""
